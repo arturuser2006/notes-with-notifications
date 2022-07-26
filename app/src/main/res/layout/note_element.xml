@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:gravity="center"
+    android:background="@color/yellow">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="64dp"
+        android:id="@+id/note_text"
+        android:textSize="20dp"
+        tools:text="teeest"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"></TextView>
+
+        <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Выполнение"
+        android:layout_marginRight="10dp"
+        android:id="@+id/completed">
+        </CheckBox>
+
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/image_button"
+        android:src="@android:drawable/btn_dialog"></ImageView>
+</LinearLayout>
